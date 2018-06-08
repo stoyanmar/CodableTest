@@ -8,6 +8,6 @@
 
 import UIKit
 
-class TTShape: TTNode {
+class Shape: Node {
     
 }

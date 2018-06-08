@@ -10,15 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var testNode = TTShape()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         do {
-            let _ = try JSONEncoder().encode(testNode)
+            let _ = try JSONEncoder().encode(Shape())
             print("Successfully encoded the test node")
         } catch {
+            print("Failed JSON encoding with error:")
             print(error)
         }
     }

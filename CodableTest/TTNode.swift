@@ -8,6 +8,6 @@
 
 import UIKit
 
-class TTNode: Codable {
+class Node: Codable {
     
 }
